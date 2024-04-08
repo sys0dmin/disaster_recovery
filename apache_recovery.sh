@@ -1,6 +1,6 @@
 # Блок восстановления Apache--------------------------------------------------------------------------------------------------------
 # Переменные для подключения к серверу
-host="back002.mshome.net"
+host="back001.mshome.net"
 cfg_apache="/home/ivan/disaster_recovery/Apache/wordpress.conf"
 wd_apache="/"
 bd_apache="/home/ivan/disaster_recovery/Apache/back001.mshome.net/"
