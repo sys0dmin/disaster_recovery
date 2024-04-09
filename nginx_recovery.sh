@@ -7,10 +7,10 @@ config_nginx="/home/ivan/disaster_recovery/Nginx/load-balancer.conf"
 config_filebit="/home/ivan/disaster_recovery/Nginx/filebeat.yml"
 
 #Запрос логина и пароля
-echo "Введите логин для подключения к серверу $host "
+echo "Введите логин для подключения к серверу $host_front "
 read -s usr
 
-echo "Введите пароль для подключения к серверу $host "
+echo "Введите пароль для подключения к серверу $host_front "
 read -s pass
 
 #Копирование конфигураций с удалённого сервера
