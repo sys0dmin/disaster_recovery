@@ -1,6 +1,6 @@
 # Блок восстановления ELK и Prometheus----------------------------------------------------------------------------------------------
 #Копирование конфигураций в конечные каталоги и перезапуск служб
-sudo cp /home/ivan/disaster_recovery/Monitoring/elasticsearch.yml /etc/elasticsearch;
+sudo cp -r /home/ivan/disaster_recovery/Monitoring/elasticsearch /etc;
 sudo cp /home/ivan/disaster_recovery/Monitoring/filebeat.yml /etc/filebeat/;
 sudo cp /home/ivan/disaster_recovery/Monitoring/grafana.db /var/lib/grafana;
 sudo cp /home/ivan/disaster_recovery/Monitoring/grafana.ini /etc/grafana;
